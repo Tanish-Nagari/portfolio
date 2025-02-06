@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About & Skills</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
+</head>
+<body>
+    
+    
+
+    <!-- About Section -->
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="abt-col-1">
+                    <img src="profile-pic.png" >
+                </div>
+                <div class="abt-col-2">
+                    <h1 class="sub-title">About Me</h1>
+                    <p>Hello! I'm <span>Tanish Nagari</span>, a second-year undergraduate engineering student at MLR Institute of Technology, Telangana. Passionate about **Web development, UI/UX design, and Graphic design**, I enjoy building modern and functional user experiences and Creating visually appealing graphics.</p>
+
+                    <div class="tab-titles">
+                        <p class="tab-links active-link" onclick="opentab('Skills')">Skills</p>
+                        <p class="tab-links" onclick="opentab('Experience')">Experience</p>
+                        <p class="tab-links" onclick="opentab('Education')">Education</p>
+                    </div>
+
+                    <div class="tab-contents active-tab" id="Skills">
+                        <ul>
+                            <li><span>UI/UX Design</span><br>Designing user-friendly web/app interfaces</li>
+                            <li><span>Web Development</span><br>Building responsive and modern websites</li>
+                            <li><span>Graphic Design</span><br>Creating visually appealing graphics and logos</li>
+                        </ul>
+                    </div>
+
+                    <div class="tab-contents" id="Experience">
+                        <ul>
+                            <li><span>2025 - Present</span><br>Gaining proficiency in UI/UX design</li>
+                            <li><span>2025 - Present</span><br>Learning Python at Scalar Academy</li>
+                            <li><span>2024 - Recently</span><br>Learned Graphic Designing</li>
+                            <li><span>2023 - 2024</span><br>Mastered HTML, CSS, JS at Cisco Academy</li>
+                            <!-- <li><span>2024 - Recently</span><br>Gained proficiency in UI/UX design</li> -->
+                        </ul>
+                    </div>
+
+                    <div class="tab-contents" id="Education">
+                        <ul>
+                            <li><span>B.Tech (2023-2027)</span><br>Pursuing engineering at MLR Institute of Technology</li>
+                        </ul>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <script src="javascript.js"></script>
+</body>
+</html>
